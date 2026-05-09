@@ -4,6 +4,11 @@
  * Linear search, or sequential search,
  * is the simplest method for finding a
  * specific value within a collection of data.
+ * 
+ * Best Case: O(1) - when the target is the first element
+ * Worst Case: O(n) - when the target is the last element
+ * Average Case: O(n) - when the target is somewhere in the middle
+ * Space Complexity: O(1) - no additional space is used 
  */
 
 declare(strict_types=1);
