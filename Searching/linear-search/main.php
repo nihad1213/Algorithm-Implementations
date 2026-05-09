@@ -5,6 +5,10 @@
  * is the simplest method for finding a
  * specific value within a collection of data.
  * 
+ * @param array $arr The array to search through
+ * @param mixed $target The value to search for
+ * @return int The index of the target value, or -1 if not found
+ * 
  * Best Case: O(1) - when the target is the first element
  * Worst Case: O(n) - when the target is the last element
  * Average Case: O(n) - when the target is somewhere in the middle
