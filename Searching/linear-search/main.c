@@ -2,7 +2,7 @@
 
 /**
  * Linear search, or sequential search,
- * * is the simplest method for finding a
+ * is the simplest method for finding a
  * specific value within a collection of data.
  * 
  * @param int arr[] The array to search through
