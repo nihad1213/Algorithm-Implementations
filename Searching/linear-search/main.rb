@@ -21,7 +21,7 @@ Complexity:
 - Space Complexity: O(1)
 =end
 
-def linear_search(arr, target)
+def linearSearch(arr, target)
   arr.each_with_index do |value, index|
     return index if value == target
   end
@@ -29,8 +29,8 @@ def linear_search(arr, target)
   -1
 end
 
-puts linear_search([1, 2, 3, 4, 5], 3)
-puts linear_search([1, 2, 3, 4, 5], 6)
-puts linear_search([], 1)
-puts linear_search([1, 2, 3, 4, 5], 1)
-puts linear_search([1, 2, 3, 4, 5], 5)
+puts linearSearch([1, 2, 3, 4, 5], 3)
+puts linearSearch([1, 2, 3, 4, 5], 6)
+puts linearSearch([], 1)
+puts linearSearch([1, 2, 3, 4, 5], 1)
+puts linearSearch([1, 2, 3, 4, 5], 5)
