@@ -1,4 +1,6 @@
-<?php
+<?php 
+
+declare(strict_types=1);
 
 /**
  * Linear search, or sequential search,
@@ -15,9 +17,7 @@
  * Space Complexity: O(1) - no additional space is used 
  */
 
-declare(strict_types=1);
-
-function linearSearch($arr, $target): int {
+function linearSearch(array $arr, mixed $target): int {
     for ($i = 0; $i < count($arr); $i++) {
         if ($arr[$i] == $target) {
             return $i;
