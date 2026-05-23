@@ -11,8 +11,8 @@ public class Main {
      * @return int The index of the target value, or -1 if not found
      * 
      * Best Case: O(1)
-     * Worst Case: O(n)
-     * Average Case: O(n)
+     * Worst Case: O(log n)
+     * Average Case: O(log n)
      * Space Complexity: O(1)
      */
 
