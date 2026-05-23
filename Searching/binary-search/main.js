@@ -34,3 +34,51 @@ function binarySearch(arr, target) {
 
     return -1;
 }
+
+console.log("EMPTY ARRAY");
+console.log(binarySearch([], 10));
+
+console.log("\nSINGLE ELEMENT");
+console.log(binarySearch([999999999], 999999999));
+console.log(binarySearch([999999999], 1));
+
+console.log("\nTWO ELEMENTS");
+console.log(binarySearch([10, 20], 10));
+console.log(binarySearch([10, 20], 20));
+console.log(binarySearch([10, 20], 15));
+
+console.log("\nLARGE INTEGERS");
+let largeVals = [
+    Number.MIN_SAFE_INTEGER,
+    -1000000000,
+    -500,
+    0,
+    500,
+    1000000000,
+    Number.MAX_SAFE_INTEGER
+];
+
+console.log(binarySearch(largeVals, Number.MIN_SAFE_INTEGER));
+console.log(binarySearch(largeVals, 0));
+console.log(binarySearch(largeVals, Number.MAX_SAFE_INTEGER));
+console.log(binarySearch(largeVals, 123));
+
+console.log("\nDUPLICATES");
+let dup = [7, 7, 7, 7, 7, 7];
+console.log(binarySearch(dup, 7));
+console.log(binarySearch(dup, 8));
+
+console.log("\nNEGATIVE NUMBERS");
+let neg = [-50, -20, -10, -5, -1];
+console.log(binarySearch(neg, -10));
+console.log(binarySearch(neg, -51));
+
+console.log("\nLARGE ARRAY");
+let big = [];
+for (let i = 0; i < 100000; i++) {
+    big.push(i * 3);
+}
+
+console.log(binarySearch(big, 0));
+console.log(binarySearch(big, 3 * 50000));
+console.log(binarySearch(big, 123456789));
