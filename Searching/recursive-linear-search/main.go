@@ -19,7 +19,7 @@ import "fmt"
  * Space Complexity: O(n)
  */
 
-func recursiveLinearSearch(arr []int, target int, index int) {
+func recursiveLinearSearch(arr []int, target int, index int) int {
 	if index == len(arr) {
 		return -1
 	}
