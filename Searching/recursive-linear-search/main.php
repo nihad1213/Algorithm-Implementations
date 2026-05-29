@@ -20,7 +20,7 @@ declare(strict_types=1);
  */
 
 function recursiveLinearSearch(array $arr, mixed $target, int $index): int {
-	if ($index == count($arr)) return -1;
+	if ($index === count($arr)) return -1;
 
 	if ($arr[$index] == $target) return $index;
 
