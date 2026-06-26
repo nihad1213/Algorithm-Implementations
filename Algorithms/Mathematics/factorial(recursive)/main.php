@@ -14,7 +14,9 @@ declare(strict_types=1);
  *
  * @param int $n The non-negative integer whose factorial is to be calculated.
  *
- * @return int The factorial of the given number.
+ * @return int|float The factorial of the given number.
+ * 
+ * @throws InvalidArgumentException If $n is negative
  *
  * Best Case: O(n)
  * Average Case: O(n)
