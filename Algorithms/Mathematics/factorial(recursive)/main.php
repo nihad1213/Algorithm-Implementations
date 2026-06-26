@@ -18,7 +18,7 @@ declare(strict_types=1);
  * 
  * @throws InvalidArgumentException If $n is negative
  *
- * Best Case: O(n)
+ * Best Case: O(1)
  * Average Case: O(n)
  * Wors Case: O(n)
  * 
