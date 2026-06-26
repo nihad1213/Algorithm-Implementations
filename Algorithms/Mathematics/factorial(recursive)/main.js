@@ -14,8 +14,8 @@
  * 
  * @return {Number}  The factorial of the given number.
  * 
- * @throws Error If n is negative
- * @throws TypeError If n is not integer
+ * @throws {Error} If n is negative
+ * @throws {TypeError} If n is not integer
  *
  * Best Case: O(1)
  * Average Case: O(n)
